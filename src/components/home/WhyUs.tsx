@@ -1,0 +1,51 @@
+import { Eye, MapPin, Sparkles, UserRound } from "lucide-react";
+import { Reveal } from "@/components/ui/Reveal";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+import { getTranslations } from "next-intl/server";
+
+const CARDS = [
+  { key: "transparency" as const, icon: Eye, n: "01" },
+  { key: "local" as const, icon: MapPin, n: "02" },
+  { key: "welcome" as const, icon: Sparkles, n: "03" },
+  { key: "one" as const, icon: UserRound, n: "04" },
+];
+
+export async function WhyUs() {
+  const t = await getTranslations("why");
+
+  return (
+    <section id="confiance" className="scroll-mt-24 bg-sandfade py-20 sm:py-24">
+      <div className="container-site">
+        <Reveal>
+          <SectionHeading
+            eyebrow={t("eyebrow")}
+            title={t("title")}
+            subtitle={t("subtitle")}
+          />
+        </Reveal>
+        <div className="mt-12 grid gap-5 sm:grid-cols-2">
+          {CARDS.map(({ key, icon: Icon, n }) => (
+            <Reveal key={key}>
+              <article className="card h-full border border-navy/5 p-7">
+                <div className="mb-5 flex items-start justify-between">
+                  <div className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[#F8E4DB] text-coral">
+                    <Icon size={22} strokeWidth={1.8} />
+                  </div>
+                  <span className="font-heading text-lg font-semibold text-coral/70">
+                    {n}
+                  </span>
+                </div>
+                <h3 className="font-heading text-xl font-semibold text-navy">
+                  {t(`${key}.title`)}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-navy/70">
+                  {t(`${key}.body`)}
+                </p>
+              </article>
+            </Reveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

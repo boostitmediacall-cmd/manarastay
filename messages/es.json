@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "title": "Manara Stay | Conciergería de alquiler premium en Tánger",
+    "description": "Gestión de alquiler de corta duración en Tánger. Manara Stay acompaña a los propietarios con un enfoque local, cuidado y transparente."
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Nuestros servicios",
+    "how": "Nuestro método",
+    "guarantees": "Transparencia",
+    "reviews": "Opiniones",
+    "zone": "Zona de intervención",
+    "contact": "Contacto",
+    "cta": "Estimar mi vivienda",
+    "openMenu": "Abrir el menú",
+    "closeMenu": "Cerrar el menú"
+  },
+  "hero": {
+    "badge": "Gestión locativa premium · Tánger",
+    "title": "Su vivienda en Tánger.\nNuestra exigencia cada día.",
+    "subtitle": "Desde la acogida de los viajeros hasta la fijación de precios, Manara Stay se ocupa de su alquiler de corta duración en Tánger, difundido en Airbnb y Booking.com: limpieza, ropa de cama, mensajes con los viajeros, llegada y salida, tarifas.",
+    "ctaPrimary": "Estimar el potencial de mi vivienda",
+    "ctaSecondary": "Descubrir nuestro método",
+    "reassurance": "Un único interlocutor · Presencia local · Gestión clara",
+    "imageAlt": "Faro sobre el mar, luz del atardecer en Tánger"
+  },
+  "why": {
+    "eyebrow": "Confianza",
+    "title": "Una vivienda bien gestionada empieza por una relación de confianza.",
+    "subtitle": "Su vivienda es una inversión. Su presentación, su mantenimiento y cada reserva cuentan. En Manara Stay combinamos una presencia local en Tánger, herramientas de gestión y una comunicación clara para una gestión sin sorpresas desagradables.",
+    "transparency": {
+      "title": "Transparencia",
+      "body": "Usted ve las reservas recibidas en Airbnb y Booking.com, así como los ingresos, a medida que llegan — no solo a final de mes."
+    },
+    "local": {
+      "title": "Presencia local",
+      "body": "Un seguimiento de proximidad para su vivienda en Tánger."
+    },
+    "welcome": {
+      "title": "Calidad de acogida",
+      "body": "Una estancia preparada con cuidado, del primer contacto a la salida."
+    },
+    "one": {
+      "title": "Un solo contacto",
+      "body": "Comunicación directa, sin intermediarios innecesarios."
+    }
+  },
+  "services": {
+    "eyebrow": "Nuestros servicios",
+    "title": "Una gestión pensada para liberarle del día a día.",
+    "subtitle": "Coordinamos las etapas esenciales de su alquiler, de la preparación de la vivienda al seguimiento después de cada estancia.",
+    "note": "Las prestaciones incluidas y los posibles gastos complementarios se definen con claridad antes del inicio de la gestión.",
+    "staging": {
+      "label": "Puesta en valor",
+      "title": "Puesta en valor",
+      "body": "Fotos, presentación del anuncio y consejos para destacar su vivienda.",
+      "imageAlt": "Terraza sobre el puerto de Tánger, puesta en valor de una vivienda"
+    },
+    "hospitality": {
+      "label": "Acogida y mantenimiento",
+      "title": "Acogida y mantenimiento",
+      "body": "Coordinación de la limpieza, la ropa de cama, las llegadas y las salidas para una experiencia cuidada.",
+      "imageAlt": "Cama hecha con ropa de cama doblada, para una acogida cuidada"
+    },
+    "bookings": {
+      "label": "Gestión de reservas",
+      "title": "Gestión de reservas",
+      "body": "Su vivienda se difunde en Airbnb y Booking.com. Seguimos las disponibilidades, respondemos a los viajeros y ajustamos el precio según la temporada.",
+      "imageAlt": "Terraza frente al mar, vivienda lista para recibir"
+    },
+    "maintenance": {
+      "label": "Seguimiento y mantenimiento",
+      "title": "Seguimiento y mantenimiento",
+      "body": "Aviso de incidencias, coordinación de intervenciones y seguimiento del estado de la vivienda.",
+      "imageAlt": "Acceso y alrededores de una vivienda, seguidos en el tiempo"
+    }
+  },
+  "story": {
+    "eyebrow": "El concepto",
+    "title": "Manara — Una luz\nentre dos orillas.",
+    "body": "En árabe, Manara significa «faro».",
+    "vision": "Un símbolo de nuestra visión: ofrecer un referente fiable a los propietarios que desean invertir o gestionar una vivienda en Tánger, al tiempo que se acoge a viajeros de todo el mundo.",
+    "principlesLead": "Entre el Mediterráneo, el Atlántico y las dos orillas, creemos en una gestión fundada en tres principios:",
+    "principles": "Claridad. Presencia. Exigencia.",
+    "closing": "Manara Stay es un enfoque local y contemporáneo de la gestión locativa."
+  },
+  "trust": {
+    "eyebrow": "Transparencia y seguridad",
+    "title": "La transparencia no es una opción.",
+    "subtitle": "Usted confía su vivienda. Debe poder comprender lo que ocurre. En Manara Stay damos especial importancia a la claridad de la información, al seguimiento de la vivienda y a la comunicación con los propietarios.",
+    "pointsTitle": "Su vivienda, su información, su visibilidad.",
+    "points": {
+      "calendar": {
+        "title": "Calendario consultable",
+        "body": "Siga las disponibilidades y las reservas."
+      },
+      "income": {
+        "title": "Ingresos detallados",
+        "body": "Distinga los ingresos, los gastos y los importes transferidos según las modalidades convenidas."
+      },
+      "follow": {
+        "title": "Seguimiento de la vivienda",
+        "body": "Sea informado de las incidencias y de las intervenciones necesarias."
+      },
+      "exchange": {
+        "title": "Intercambios directos",
+        "body": "Una comunicación clara con su interlocutor Manara Stay."
+      }
+    },
+    "note": "La disponibilidad de las herramientas de seguimiento y las modalidades de reporting se precisan en su contrato de gestión.",
+    "booked": "Alquilado",
+    "free": "Libre",
+    "noPromiseEyebrow": "Sin promesas artificiales",
+    "noPromiseTitle": "No inventamos certezas.",
+    "noPromiseBody": "No garantizamos un ingreso fijo ni una tasa de ocupación. Analizamos el potencial de su vivienda y le presentamos una estimación basada en sus características y las condiciones del mercado."
+  },
+  "owners": {
+    "eyebrow": "Para propietarios",
+    "title": "Está en Tánger. O a varios miles de kilómetros.",
+    "subtitle": "Viva en Marruecos, en Francia o en otro lugar, su vivienda merece un seguimiento organizado. Manara Stay le acompaña en la gestión cotidiana, con un interlocutor identificado y una comunicación adaptada a sus necesidades.",
+    "needsTitle": "Usted busca",
+    "needs": {
+      "local": "Una gestión local de su apartamento.",
+      "contact": "Un interlocutor para viajeros y proveedores.",
+      "stays": "Una mejor organización de las estancias.",
+      "visibility": "Una visión clara de la actividad de su vivienda."
+    },
+    "closing": "Hablemos de su vivienda y de sus expectativas.",
+    "cta": "Hablar de mi proyecto",
+    "imageAlt": "Sala luminosa, pensada para una acogida cuidada"
+  },
+  "founder": {
+    "eyebrow": "Sobre nosotros",
+    "title": "Una experiencia de terreno, una visión moderna.",
+    "name": "Tarik Soussi",
+    "role": "Fundador · Manara Stay",
+    "body": "Una experiencia de anfitrión y de conciergería entre Francia y Marruecos, al servicio de una gestión locativa local y estructurada. Manara Stay nace de una experiencia concreta del alquiler de corta duración y de una voluntad simple: proponer a los propietarios de Tánger una gestión más clara, más cuidada y más accesible.",
+    "approach": "Nuestro enfoque se basa en la proximidad, la comunicación y la atención al detalle.",
+    "cta": "Contactar",
+    "imageAlt": "Tarik Soussi, fundador de Manara Stay, en un salón contemporáneo de Tánger"
+  },
+  "reviews": {
+    "eyebrow": "Opiniones",
+    "title": "La confianza se construye.\nLas opiniones la cuentan.",
+    "caption": "Opiniones verificadas, procedentes de nuestros anuncios de Airbnb",
+    "emptyTitle": "Los primeros testimonios se publicarán aquí.",
+    "emptyBody": "Compartimos únicamente opiniones auténticas de propietarios y viajeros, con su consentimiento. Ningún testimonio inventado, ninguna nota artificial.",
+    "source": "Opinión verificada",
+    "cta": "Ver todas las opiniones",
+    "ctaCommitments": "Descubrir nuestros compromisos",
+    "rating": "{rating} estrellas de 5",
+    "yearsOnAirbnb": "{count, plural, one {# año en Airbnb} other {# años en Airbnb}}",
+    "weeksAgo": "Hace {count, plural, one {# semana} other {# semanas}}",
+    "stayFewNights": "Estancia de unas noches",
+    "dateMonth": "{month} {year}",
+    "city": "{city}, {region}",
+    "months": {
+      "7": "Julio"
+    },
+    "regions": {
+      "morocco": "Marruecos",
+      "tennessee": "Tennessee",
+      "california": "California"
+    }
+  },
+  "how": {
+    "eyebrow": "Nuestro método",
+    "title": "De su proyecto a la gestión de su vivienda.",
+    "subtitle": "Un recorrido claro, en cuatro etapas, sin compromiso antes de validar las modalidades.",
+    "steps": {
+      "1": {
+        "title": "Intercambio y estimación",
+        "body": "Descubrimos su vivienda, su emplazamiento y sus objetivos. Estudiamos su potencial locativo sin promesa de ingresos garantizados."
+      },
+      "2": {
+        "title": "Preparación de la vivienda",
+        "body": "Definimos la estrategia de presentación, las necesidades operativas y las condiciones de gestión. Usted valida las modalidades antes del lanzamiento."
+      },
+      "3": {
+        "title": "Publicación y acogida",
+        "body": "El anuncio se prepara, las reservas se siguen y las operaciones de acogida y mantenimiento se coordinan."
+      },
+      "4": {
+        "title": "Seguimiento continuo",
+        "body": "Recibe la información convenida sobre la actividad de la vivienda, los ingresos, los gastos y las eventuales incidencias."
+      }
+    },
+    "cta": "Estimar mi vivienda"
+  },
+  "zone": {
+    "eyebrow": "Zona de intervención",
+    "title": "Una presencia local en Tánger.",
+    "subtitle": "Concentramos nuestra actividad en Tánger y sus principales barrios.",
+    "mapCaption": "Mapa OpenStreetMap centrado en Tánger.",
+    "areas": {
+      "centre": "Centro",
+      "malabata": "Malabata",
+      "marshan": "Marshan",
+      "kasbah": "Kasbah",
+      "california": "California",
+      "spartel": "Cabo Espartel",
+      "gzenaya": "Gzenaya"
+    },
+    "note": "La toma a cargo de viviendas situadas fuera de estas zonas se estudia caso por caso."
+  },
+  "lead": {
+    "eyebrow": "Una primera estimación, sin compromiso.",
+    "title": "Hablemos de su vivienda en Tánger.",
+    "subtitle": "Descríbanos su vivienda y sus expectativas. Le recontactamos para hablar de las posibilidades de gestión.",
+    "estimateNote": "Estudiamos su situación y le presentamos un enfoque adaptado a su vivienda.",
+    "name": "Nombre",
+    "phone": "Teléfono / WhatsApp",
+    "city": "Ciudad de la vivienda",
+    "type": "Tipo de vivienda",
+    "message": "Mensaje",
+    "messageOptional": "Mensaje (opcional)",
+    "messagePlaceholder": "Número de habitaciones, ubicación, estado, expectativas…",
+    "submit": "Enviar mi solicitud",
+    "sending": "Enviando…",
+    "successTitle": "Solicitud recibida",
+    "success": "Gracias. Hemos recibido su solicitud y le recontactamos.",
+    "error": "El envío no se ha completado. Inténtelo de nuevo o escríbanos por WhatsApp.",
+    "unavailable": "El formulario aún no está conectado a la base. Use WhatsApp o el correo mientras tanto.",
+    "whatsappAlt": "¿Una pregunta? Hablemos por WhatsApp.",
+    "whatsappCta": "Escribir por WhatsApp",
+    "whatsappHint": "Tarik responde en el +212 6 79 40 45 27.",
+    "types": {
+      "appartement": "Apartamento",
+      "maison": "Casa",
+      "villa": "Villa",
+      "studio": "Estudio",
+      "riad": "Riad",
+      "autre": "Otro"
+    },
+    "cities": {
+      "tanger": "Tánger",
+      "malabata": "Malabata",
+      "cap-spartel": "Cabo Espartel",
+      "marshan": "Marshan",
+      "california": "California",
+      "kasbah": "Kasbah",
+      "autre": "Otro / alrededores"
+    },
+    "required": "Campo obligatorio"
+  },
+  "footer": {
+    "slogan": "La gestión locativa de corta duración, de otro modo.",
+    "location": "Tánger · Marruecos",
+    "tagline": "Conciergería de alquiler de corta duración en Tánger. Un enfoque local y transparente de la gestión locativa.",
+    "legal": "Manara Stay es una actividad de conciergería y de acompañamiento a la gestión locativa. Las prestaciones, las responsabilidades y las condiciones de gestión se definen en un contrato adaptado a cada propietario. Manara Stay no es una agencia inmobiliaria.",
+    "rights": "Manara Stay. Todos los derechos reservados.",
+    "parent": "Una marca Manara Keys",
+    "languages": "Idiomas",
+    "contactTitle": "Contacto",
+    "linksTitle": "Navegación",
+    "role": "Fundador · Manara Stay",
+    "phone": "Teléfono / WhatsApp",
+    "address": "Dirección",
+    "website": "Web",
+    "whatsapp": "WhatsApp"
+  },
+  "whatsapp": {
+    "label": "WhatsApp"
+  },
+  "howPage": {
+    "title": "Nuestro método",
+    "intro": "De su proyecto a la gestión de su vivienda. Cuatro etapas claras, sin compromiso antes de validar las modalidades.",
+    "imageAlt": "Sala contemporánea que ilustra un alquiler listo para ser gestionado",
+    "detail1": "Conversamos (llamada o WhatsApp), descubrimos la vivienda y sus objetivos, y estudiamos su potencial locativo — sin promesa de ingresos garantizados.",
+    "detail2": "Definimos la presentación, las necesidades operativas y las condiciones de gestión. Usted valida las modalidades antes del lanzamiento.",
+    "detail3": "El anuncio se prepara, las reservas se siguen, la acogida y el mantenimiento se coordinan. Un solo interlocutor de su lado.",
+    "detail4": "Recibe la información convenida sobre la actividad, los ingresos, los gastos y las eventuales incidencias, según su contrato."
+  },
+  "guaranteesPage": {
+    "title": "Transparencia y seguridad",
+    "intro": "Usted confía su vivienda. Debe poder comprender lo que ocurre y cómo se hace el seguimiento.",
+    "p1Title": "Información legible",
+    "p1": "Calendario consultable, ingresos detallados, seguimiento de la vivienda. La visibilidad y las herramientas de reporting se precisan en su contrato de gestión.",
+    "p2Title": "Seguimiento de la vivienda",
+    "p2": "Incidencias comunicadas, intervenciones coordinadas, comunicación clara. El objetivo es simple: su apartamento no queda sin interlocutor.",
+    "p3Title": "Sobre las plataformas",
+    "p3": "Gestionamos anuncios en las plataformas de reserva. No reivindicamos ninguna afiliación oficial ni usamos sus marcas como argumento comercial."
+  },
+  "reviewsPage": {
+    "title": "Opiniones",
+    "intro": "Opiniones verificadas de viajeros, procedentes de nuestros anuncios de Airbnb. No publicamos testimonios inventados."
+  },
+  "zonePage": {
+    "title": "Zona de intervención",
+    "intro": "Concentramos nuestra actividad en Tánger y sus principales barrios. Más allá, cada vivienda se estudia caso por caso."
+  },
+  "contactPage": {
+    "title": "Hablemos de su vivienda en Tánger.",
+    "intro": "Descríbanos su vivienda y sus expectativas. Le recontactamos para hablar de las posibilidades de gestión.",
+    "imageAlt": "Interior contemporáneo, luz natural"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "body": "Este enlace no existe. Vuelva al inicio para estimar su vivienda.",
+    "cta": "Volver al inicio"
+  },
+  "ads": {
+    "metaTitle": "Conciergería de alquiler en Tánger — Estimar mi vivienda | Manara Stay",
+    "metaDescription": "Gestión de alquiler de corta duración en Tánger. Estimación sin compromiso, presencia local e interlocutor único. Sin promesa de ingresos garantizados.",
+    "badge": "Gestión locativa premium · Tánger",
+    "title": "Su vivienda en Tánger, confiada a un solo interlocutor de confianza",
+    "subtitle": "Desde la acogida de los viajeros hasta la fijación de precios, Manara Stay se ocupa de su alquiler de corta duración en Tánger, difundido en Airbnb y Booking.com: limpieza, ropa de cama, mensajes con los viajeros, llegada y salida, tarifas.",
+    "cta": "Estimar el potencial de mi vivienda",
+    "ctaWhatsapp": "Escribir por WhatsApp",
+    "imageAlt": "Faro sobre el mar, luz del atardecer en Tánger",
+    "trustTitle": "Una vivienda bien gestionada empieza por una relación de confianza.",
+    "trustSubtitle": "Su vivienda es una inversión. Su presentación, su mantenimiento y cada reserva cuentan. En Manara Stay combinamos una presencia local en Tánger, herramientas de gestión y una comunicación clara para ofrecerle una gestión sin malas sorpresas.",
+    "trust": {
+      "transparency": {
+        "title": "Transparencia",
+        "body": "Usted ve las reservas recibidas en Airbnb y Booking.com, así como los ingresos, a medida que llegan — no solo a final de mes."
+      },
+      "local": {
+        "title": "Presencia local",
+        "body": "Un seguimiento de proximidad para su vivienda en Tánger."
+      },
+      "welcome": {
+        "title": "Calidad de acogida",
+        "body": "Una estancia preparada con cuidado, del primer contacto a la salida."
+      },
+      "one": {
+        "title": "Un solo contacto",
+        "body": "Comunicación directa, sin intermediarios innecesarios."
+      }
+    },
+    "reassuranceTitle": "La transparencia no es una opción.",
+    "reassuranceSubtitle": "Usted confía su vivienda. Debe poder entender lo que ocurre en ella.",
+    "reassurance": {
+      "calendar": {
+        "title": "Calendario consultable",
+        "body": "Sigue las disponibilidades y las reservas."
+      },
+      "income": {
+        "title": "Ingresos detallados",
+        "body": "Ingresos, gastos y importes transferidos se distinguen con claridad."
+      },
+      "follow": {
+        "title": "Seguimiento de la vivienda",
+        "body": "Se le informa de los incidentes y de las intervenciones necesarias."
+      },
+      "exchange": {
+        "title": "Intercambios directos",
+        "body": "Una comunicación clara con su interlocutor Manara Stay."
+      }
+    },
+    "complianceTitle": "No inventamos certezas.",
+    "complianceBody": "No garantizamos un ingreso fijo ni una tasa de ocupación. Analizamos el potencial de su vivienda y le presentamos una estimación basada en sus características y en las condiciones del mercado.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": {
+      "1": {
+        "q": "¿Cuánto cuesta su servicio?",
+        "a": "Las modalidades y la remuneración se definen con claridad antes de iniciar la gestión, según la vivienda y el nivel de servicio. Se las presentamos en un primer intercambio, sin compromiso."
+      },
+      "2": {
+        "q": "¿Hay un compromiso de duración?",
+        "a": "Un primer intercambio no compromete a nada. Si colaboramos, las condiciones se precisan antes del lanzamiento. Nada se inicia sin su acuerdo."
+      },
+      "3": {
+        "q": "¿Qué ocurre si quiero recuperar mi vivienda?",
+        "a": "Su vivienda sigue siendo suya. Si desea retomar la gestión, organizamos la transición según las modalidades convenidas."
+      },
+      "4": {
+        "q": "¿También se ocupan de la ropa de cama y de la limpieza?",
+        "a": "Sí. Coordinamos la limpieza, la ropa de cama, las llegadas y las salidas para que cada estancia esté preparada con cuidado."
+      },
+      "5": {
+        "q": "¿Intervienen fuera de Tánger?",
+        "a": "Concentramos nuestra actividad en Tánger y sus principales barrios. Más allá, cada vivienda se estudia caso por caso."
+      }
+    },
+    "formTitle": "Una primera estimación, sin compromiso.",
+    "formWhatsappAlt": "¿Una pregunta? Hablemos directamente por WhatsApp",
+    "legal": "Manara Stay es una actividad de conciergería y de acompañamiento a la gestión locativa. Manara Stay no es una agencia inmobiliaria.",
+    "founderRole": "Fundador"
+  }
+}

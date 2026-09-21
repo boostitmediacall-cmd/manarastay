@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "title": "Manara Stay | Premium verhuurconcierge in Tanger",
+    "description": "Kortetermijnverhuur in Tanger. Manara Stay begeleidt eigenaars met een lokale, verzorgde en transparante aanpak."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Onze diensten",
+    "how": "Onze methode",
+    "guarantees": "Transparantie",
+    "reviews": "Beoordelingen",
+    "zone": "Werkingsgebied",
+    "contact": "Contact",
+    "cta": "Schat mijn woning in",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten"
+  },
+  "hero": {
+    "badge": "Premium verhuurbeheer · Tanger",
+    "title": "Uw woning in Tanger.\nOnze eis, elke dag.",
+    "subtitle": "Van de ontvangst van reizigers tot de prijszetting neemt Manara Stay het beheer van uw kortetermijnverhuur in Tanger op zich, verspreid op Airbnb en Booking.com: schoonmaak, linnen, berichten met reizigers, in- en uitchecken, tarieven.",
+    "ctaPrimary": "Het potentieel van mijn woning inschatten",
+    "ctaSecondary": "Onze methode ontdekken",
+    "reassurance": "Eén aanspreekpunt · Lokale aanwezigheid · Duidelijk beheer",
+    "imageAlt": "Vuurtoren boven zee, avondlicht in Tanger"
+  },
+  "why": {
+    "eyebrow": "Vertrouwen",
+    "title": "Een goed beheerde woning begint met een vertrouwensrelatie.",
+    "subtitle": "Uw woning is een investering. De presentatie, het onderhoud en elke reservatie tellen. Bij Manara Stay combineren we een lokale aanwezigheid in Tanger, beheerstools en duidelijke communicatie voor een beheer zonder nare verrassingen.",
+    "transparency": {
+      "title": "Transparantie",
+      "body": "U ziet de reservaties ontvangen op Airbnb en Booking.com, evenals de inkomsten, naarmate ze binnenkomen — niet alleen aan het einde van de maand."
+    },
+    "local": {
+      "title": "Lokale aanwezigheid",
+      "body": "Nabije opvolging voor uw woning in Tanger."
+    },
+    "welcome": {
+      "title": "Kwaliteit van ontvangst",
+      "body": "Een verblijf zorgvuldig voorbereid, van het eerste contact tot het vertrek."
+    },
+    "one": {
+      "title": "Eén contact",
+      "body": "Directe communicatie, zonder overbodige tussenpersonen."
+    }
+  },
+  "services": {
+    "eyebrow": "Onze diensten",
+    "title": "Beheer dat u van het dagelijkse werk bevrijdt.",
+    "subtitle": "Wij coördineren de essentiële stappen van uw verhuur, van de voorbereiding van de woning tot de opvolging na elk verblijf.",
+    "note": "Inbegrepen prestaties en eventuele bijkomende kosten worden duidelijk vastgelegd vóór het beheer start.",
+    "staging": {
+      "label": "Waardering van de woning",
+      "title": "Waardering van de woning",
+      "body": "Foto’s, presentatie van de advertentie en advies om uw woning in de kijker te zetten.",
+      "imageAlt": "Terras boven de marina van Tanger, een woning in de kijker"
+    },
+    "hospitality": {
+      "label": "Ontvangst & onderhoud",
+      "title": "Ontvangst & onderhoud",
+      "body": "Coördinatie van schoonmaak, linnen, aankomsten en vertrekken voor een verzorgde ervaring.",
+      "imageAlt": "Opgemaakt bed met gevouwen linnen, klaar voor een verzorgde ontvangst"
+    },
+    "bookings": {
+      "label": "Reservatiebeheer",
+      "title": "Reservatiebeheer",
+      "body": "Uw woning wordt verspreid op Airbnb en Booking.com. Wij volgen de beschikbaarheid, beantwoorden reizigers en passen de prijs aan volgens het seizoen.",
+      "imageAlt": "Terras aan zee, een woning klaar om gasten te ontvangen"
+    },
+    "maintenance": {
+      "label": "Opvolging & onderhoud",
+      "title": "Opvolging & onderhoud",
+      "body": "Melding van incidenten, coördinatie van interventies en opvolging van de staat van de woning.",
+      "imageAlt": "Toegang en omgeving van een woning, opgevolgd in de tijd"
+    }
+  },
+  "story": {
+    "eyebrow": "Het concept",
+    "title": "Manara — Een licht\ntussen twee oevers.",
+    "body": "In het Arabisch betekent Manara «vuurtoren».",
+    "vision": "Een symbool van onze visie: een betrouwbaar baken bieden aan eigenaars die willen investeren of een woning in Tanger beheren, terwijl reizigers van over de hele wereld worden ontvangen.",
+    "principlesLead": "Tussen de Middellandse Zee, de Atlantische Oceaan en de twee oevers geloven we in beheer gebaseerd op drie principes:",
+    "principles": "Helderheid. Aanwezigheid. Eis.",
+    "closing": "Manara Stay is een lokale, eigentijdse aanpak van verhuurbeheer."
+  },
+  "trust": {
+    "eyebrow": "Transparantie & veiligheid",
+    "title": "Transparantie is geen optie.",
+    "subtitle": "U vertrouwt uw woning toe. U moet kunnen begrijpen wat er gebeurt. Bij Manara Stay hechten we bijzonder belang aan duidelijke informatie, opvolging van de woning en communicatie met eigenaars.",
+    "pointsTitle": "Uw woning, uw informatie, uw zichtbaarheid.",
+    "points": {
+      "calendar": {
+        "title": "Raadpleegbare kalender",
+        "body": "Volg beschikbaarheid en reservaties."
+      },
+      "income": {
+        "title": "Gedetailleerde inkomsten",
+        "body": "Onderscheid ontvangsten, kosten en uitbetaalde bedragen volgens de overeengekomen modaliteiten."
+      },
+      "follow": {
+        "title": "Opvolging van de woning",
+        "body": "Word geïnformeerd over incidenten en nodige interventies."
+      },
+      "exchange": {
+        "title": "Directe uitwisseling",
+        "body": "Duidelijke communicatie met uw Manara Stay-aanspreekpunt."
+      }
+    },
+    "note": "De beschikbaarheid van opvolgingstools en de rapportagemodaliteiten worden in uw beheerscontract vastgelegd.",
+    "booked": "Verhuurd",
+    "free": "Beschikbaar",
+    "noPromiseEyebrow": "Geen kunstmatige beloftes",
+    "noPromiseTitle": "Wij verzinnen geen zekerheden.",
+    "noPromiseBody": "Wij garanderen geen vast inkomen noch een bezettingsgraad. Wij analyseren het potentieel van uw woning en presenteren een schatting op basis van haar kenmerken en de marktvoorwaarden."
+  },
+  "owners": {
+    "eyebrow": "Voor eigenaars",
+    "title": "U bent in Tanger. Of duizenden kilometers verder.",
+    "subtitle": "Of u nu in Marokko, Frankrijk of elders woont, uw woning verdient een georganiseerde opvolging. Manara Stay begeleidt u in het dagelijkse beheer, met een geïdentificeerd aanspreekpunt en communicatie afgestemd op uw behoeften.",
+    "needsTitle": "U zoekt",
+    "needs": {
+      "local": "Lokaal beheer van uw appartement.",
+      "contact": "Een aanspreekpunt voor reizigers en dienstverleners.",
+      "stays": "Een betere organisatie van verblijven.",
+      "visibility": "Een duidelijk beeld van de activiteit van uw woning."
+    },
+    "closing": "Laten we over uw woning en uw verwachtingen praten.",
+    "cta": "Over mijn project spreken",
+    "imageAlt": "Lichte woonruimte, bedoeld voor een verzorgde ontvangst"
+  },
+  "founder": {
+    "eyebrow": "Over ons",
+    "title": "Ervaring op het terrein, een moderne visie.",
+    "name": "Tarik Soussi",
+    "role": "Oprichter · Manara Stay",
+    "body": "Ervaring als gastheer en concierge tussen Frankrijk en Marokko, ten dienste van lokaal en gestructureerd verhuurbeheer. Manara Stay is ontstaan uit concrete ervaring met kortetermijnverhuur en een eenvoudige wil: eigenaars in Tanger een duidelijker, verzorgder en toegankelijker beheer bieden.",
+    "approach": "Onze aanpak steunt op nabijheid, communicatie en aandacht voor detail.",
+    "cta": "Neem contact op",
+    "imageAlt": "Tarik Soussi, oprichter van Manara Stay, in een eigentijdse woonkamer in Tanger"
+  },
+  "reviews": {
+    "eyebrow": "Beoordelingen",
+    "title": "Vertrouwen wordt opgebouwd.\nBeoordelingen vertellen het.",
+    "caption": "Geverifieerde beoordelingen van onze Airbnb-advertenties",
+    "emptyTitle": "De eerste getuigenissen worden hier gepubliceerd.",
+    "emptyBody": "Wij delen enkel authentieke beoordelingen van eigenaars en reizigers, met hun akkoord. Geen verzonnen getuigenissen, geen kunstmatige scores.",
+    "source": "Geverifieerde beoordeling",
+    "cta": "Alle beoordelingen bekijken",
+    "ctaCommitments": "Onze engagementen ontdekken",
+    "rating": "{rating} van de 5 sterren",
+    "yearsOnAirbnb": "{count, plural, one {# jaar op Airbnb} other {# jaar op Airbnb}}",
+    "weeksAgo": "{count, plural, one {# week geleden} other {# weken geleden}}",
+    "stayFewNights": "Verblijf van enkele nachten",
+    "dateMonth": "{month} {year}",
+    "city": "{city}, {region}",
+    "months": {
+      "7": "Juli"
+    },
+    "regions": {
+      "morocco": "Marokko",
+      "tennessee": "Tennessee",
+      "california": "Californië"
+    }
+  },
+  "how": {
+    "eyebrow": "Onze methode",
+    "title": "Van uw project tot het beheer van uw woning.",
+    "subtitle": "Een duidelijk parcours in vier stappen, zonder engagement vóór validatie van de modaliteiten.",
+    "steps": {
+      "1": {
+        "title": "Gesprek & schatting",
+        "body": "Wij leren uw woning, haar ligging en uw doelstellingen kennen. Wij bestuderen het verhuurpotentieel zonder belofte van gegarandeerde inkomsten."
+      },
+      "2": {
+        "title": "Voorbereiding van de woning",
+        "body": "Wij bepalen de presentatiestrategie, de operationele noden en de beheersvoorwaarden. U valideert de modaliteiten vóór de start."
+      },
+      "3": {
+        "title": "Online plaatsen & ontvangst",
+        "body": "De advertentie wordt voorbereid, reservaties worden opgevolgd en ontvangst- en onderhoudsoperaties worden gecoördineerd."
+      },
+      "4": {
+        "title": "Continue opvolging",
+        "body": "U ontvangt de overeengekomen informatie over de activiteit, inkomsten, kosten en eventuele incidenten."
+      }
+    },
+    "cta": "Schat mijn woning in"
+  },
+  "zone": {
+    "eyebrow": "Werkingsgebied",
+    "title": "Een lokale aanwezigheid in Tanger.",
+    "subtitle": "Wij concentreren onze activiteit op Tanger en de belangrijkste wijken.",
+    "mapCaption": "OpenStreetMap gecentreerd op Tanger.",
+    "areas": {
+      "centre": "Centrum",
+      "malabata": "Malabata",
+      "marshan": "Marshan",
+      "kasbah": "Kasbah",
+      "california": "California",
+      "spartel": "Kaap Spartel",
+      "gzenaya": "Gzenaya"
+    },
+    "note": "Woningen buiten deze zones worden van geval tot geval bekeken."
+  },
+  "lead": {
+    "eyebrow": "Een eerste schatting, zonder engagement.",
+    "title": "Laten we over uw woning in Tanger praten.",
+    "subtitle": "Beschrijf uw woning en uw verwachtingen. Wij nemen contact op om de beheermogelijkheden te bespreken.",
+    "estimateNote": "Wij bestuderen uw situatie en presenteren een aanpak die bij uw woning past.",
+    "name": "Naam",
+    "phone": "Telefoon / WhatsApp",
+    "city": "Stad van de woning",
+    "type": "Type woning",
+    "message": "Bericht",
+    "messageOptional": "Bericht (optioneel)",
+    "messagePlaceholder": "Aantal slaapkamers, ligging, staat, verwachtingen…",
+    "submit": "Mijn aanvraag versturen",
+    "sending": "Verzenden…",
+    "successTitle": "Aanvraag ontvangen",
+    "success": "Dank u. Wij hebben uw aanvraag ontvangen en nemen contact op.",
+    "error": "Het verzenden is niet gelukt. Probeer opnieuw of schrijf ons via WhatsApp.",
+    "unavailable": "Het formulier is nog niet gekoppeld aan de database. Gebruik WhatsApp of e-mail in de tussentijd.",
+    "whatsappAlt": "Een vraag? Laten we via WhatsApp praten.",
+    "whatsappCta": "Schrijven op WhatsApp",
+    "whatsappHint": "Tarik antwoordt op +212 6 79 40 45 27.",
+    "types": {
+      "appartement": "Appartement",
+      "maison": "Huis",
+      "villa": "Villa",
+      "studio": "Studio",
+      "riad": "Riad",
+      "autre": "Andere"
+    },
+    "cities": {
+      "tanger": "Tanger",
+      "malabata": "Malabata",
+      "cap-spartel": "Kaap Spartel",
+      "marshan": "Marshan",
+      "california": "California",
+      "kasbah": "Kasbah",
+      "autre": "Andere / omgeving"
+    },
+    "required": "Verplicht veld"
+  },
+  "footer": {
+    "slogan": "Kortetermijnverhuur, anders aangepakt.",
+    "location": "Tanger · Marokko",
+    "tagline": "Concierge voor kortetermijnverhuur in Tanger. Een lokale, transparante aanpak van verhuurbeheer.",
+    "legal": "Manara Stay is een concierge- en begeleidingsactiviteit voor verhuurbeheer. De voorgestelde prestaties, verantwoordelijkheden en beheersvoorwaarden worden vastgelegd in een contract aangepast aan elke eigenaar. Manara Stay is geen vastgoedagentschap.",
+    "rights": "Manara Stay. Alle rechten voorbehouden.",
+    "parent": "Een merk van Manara Keys",
+    "languages": "Talen",
+    "contactTitle": "Contact",
+    "linksTitle": "Navigatie",
+    "role": "Oprichter · Manara Stay",
+    "phone": "Telefoon / WhatsApp",
+    "address": "Adres",
+    "website": "Website",
+    "whatsapp": "WhatsApp"
+  },
+  "whatsapp": {
+    "label": "WhatsApp"
+  },
+  "howPage": {
+    "title": "Onze methode",
+    "intro": "Van uw project tot het beheer van uw woning. Vier duidelijke stappen, zonder engagement vóór validatie van de modaliteiten.",
+    "imageAlt": "Eigentijdse woonruimte die een te beheren verhuur illustreert",
+    "detail1": "Wij wisselen (gesprek of WhatsApp), leren de woning en uw doelstellingen kennen, en bestuderen het verhuurpotentieel — zonder belofte van gegarandeerde inkomsten.",
+    "detail2": "Wij bepalen presentatie, operationele noden en beheersvoorwaarden. U valideert de modaliteiten vóór de start.",
+    "detail3": "De advertentie wordt voorbereid, reservaties worden opgevolgd, ontvangst en onderhoud gecoördineerd. Eén aanspreekpunt aan uw kant.",
+    "detail4": "U ontvangt de overeengekomen informatie over activiteit, inkomsten, kosten en eventuele incidenten, volgens uw contract."
+  },
+  "guaranteesPage": {
+    "title": "Transparantie en veiligheid",
+    "intro": "U vertrouwt uw woning toe. U moet kunnen begrijpen wat er gebeurt, en hoe ze wordt opgevolgd.",
+    "p1Title": "Leesbare informatie",
+    "p1": "Raadpleegbare kalender, gedetailleerde inkomsten, opvolging van de woning. Zichtbaarheid en rapportagetools worden in uw beheerscontract vastgelegd.",
+    "p2Title": "Opvolging van de woning",
+    "p2": "Incidenten gemeld, interventies gecoördineerd, duidelijke communicatie. Het doel is eenvoudig: uw appartement blijft niet zonder aanspreekpunt.",
+    "p3Title": "Over platformen",
+    "p3": "Wij beheren advertenties op reservatieplatformen. Wij claimen geen officiële affiliatie en gebruiken hun merken niet als commercieel argument."
+  },
+  "reviewsPage": {
+    "title": "Beoordelingen",
+    "intro": "Geverifieerde beoordelingen van reizigers, afkomstig van onze Airbnb-advertenties. Wij publiceren geen verzonnen getuigenissen."
+  },
+  "zonePage": {
+    "title": "Werkingsgebied",
+    "intro": "Wij concentreren onze activiteit op Tanger en de belangrijkste wijken. Daarbuiten wordt elke woning van geval tot geval bekeken."
+  },
+  "contactPage": {
+    "title": "Laten we over uw woning in Tanger praten.",
+    "intro": "Beschrijf uw woning en uw verwachtingen. Wij nemen contact op om de beheermogelijkheden te bespreken.",
+    "imageAlt": "Eigentijds interieur, natuurlijk licht"
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "body": "Deze link bestaat niet. Keer terug naar home om uw woning in te schatten.",
+    "cta": "Terug naar home"
+  },
+  "ads": {
+    "metaTitle": "Verhuurconcierge in Tanger — Schat mijn woning in | Manara Stay",
+    "metaDescription": "Kortetermijnverhuur in Tanger. Schatting zonder engagement, lokale aanwezigheid en één aanspreekpunt. Geen belofte van gegarandeerde inkomsten.",
+    "badge": "Premium verhuurbeheer · Tanger",
+    "title": "Uw woning in Tanger, toevertrouwd aan één betrouwbaar aanspreekpunt",
+    "subtitle": "Van de ontvangst van reizigers tot de prijszetting neemt Manara Stay het beheer van uw kortetermijnverhuur in Tanger op zich, verspreid op Airbnb en Booking.com: schoonmaak, linnen, berichten met reizigers, in- en uitchecken, tarieven.",
+    "cta": "Schat het potentieel van mijn woning in",
+    "ctaWhatsapp": "Schrijf op WhatsApp",
+    "imageAlt": "Vuurtoren boven zee, avondlicht in Tanger",
+    "trustTitle": "Een goed beheerde woning begint met een relatie van vertrouwen.",
+    "trustSubtitle": "Uw woning is een investering. De presentatie, het onderhoud en elke reservatie tellen. Bij Manara Stay combineren we een lokale aanwezigheid in Tanger, beheerstools en duidelijke communicatie voor een beheer zonder onaangename verrassingen.",
+    "trust": {
+      "transparency": {
+        "title": "Transparantie",
+        "body": "U ziet de reservaties ontvangen op Airbnb en Booking.com, evenals de inkomsten, naarmate ze binnenkomen — niet alleen aan het einde van de maand."
+      },
+      "local": {
+        "title": "Lokale aanwezigheid",
+        "body": "Nabije opvolging voor uw woning in Tanger."
+      },
+      "welcome": {
+        "title": "Kwaliteit van ontvangst",
+        "body": "Een verblijf zorgvuldig voorbereid, van het eerste contact tot het vertrek."
+      },
+      "one": {
+        "title": "Eén contactpunt",
+        "body": "Directe communicatie, zonder overbodige tussenpersonen."
+      }
+    },
+    "reassuranceTitle": "Transparantie is geen optie.",
+    "reassuranceSubtitle": "U vertrouwt uw woning toe. U moet kunnen begrijpen wat er gebeurt.",
+    "reassurance": {
+      "calendar": {
+        "title": "Raadpleegbare kalender",
+        "body": "U volgt de beschikbaarheid en de reservaties."
+      },
+      "income": {
+        "title": "Gedetailleerde inkomsten",
+        "body": "Ontvangsten, kosten en doorgestorte bedragen worden duidelijk onderscheiden."
+      },
+      "follow": {
+        "title": "Opvolging van de woning",
+        "body": "U wordt geïnformeerd over incidenten en nodige interventies."
+      },
+      "exchange": {
+        "title": "Directe uitwisseling",
+        "body": "Duidelijke communicatie met uw aanspreekpunt bij Manara Stay."
+      }
+    },
+    "complianceTitle": "Wij verzinnen geen zekerheden.",
+    "complianceBody": "Wij garanderen geen vast inkomen en geen bezettingsgraad. Wij analyseren het potentieel van uw woning en presenteren een schatting op basis van haar kenmerken en de marktvoorwaarden.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": {
+      "1": {
+        "q": "Wat kost jullie dienst?",
+        "a": "De modaliteiten en de vergoeding worden duidelijk vastgelegd vóór het beheer start, volgens de woning en het serviceniveau. Wij stellen ze voor tijdens een eerste gesprek, zonder engagement."
+      },
+      "2": {
+        "q": "Is er een duurafspraak?",
+        "a": "Een eerste gesprek bindt u tot niets. Als we samenwerken, worden de voorwaarden vóór de start vastgelegd. Niets start zonder uw akkoord."
+      },
+      "3": {
+        "q": "Wat als ik mijn woning wil terugnemen?",
+        "a": "Uw woning blijft van u. Als u het beheer wilt overnemen, organiseren wij de overgang volgens de overeengekomen modaliteiten."
+      },
+      "4": {
+        "q": "Beheren jullie ook linnen en schoonmaak?",
+        "a": "Ja. Wij coördineren schoonmaak, linnen, aankomsten en vertrekken zodat elk verblijf zorgvuldig wordt voorbereid."
+      },
+      "5": {
+        "q": "Komen jullie ook buiten Tanger tussen?",
+        "a": "Wij concentreren onze activiteit op Tanger en de belangrijkste wijken. Daarbuiten wordt elke woning van geval tot geval bekeken."
+      }
+    },
+    "formTitle": "Een eerste schatting, zonder engagement.",
+    "formWhatsappAlt": "Een vraag? Laten we rechtstreeks op WhatsApp praten",
+    "legal": "Manara Stay is een activiteit van concierge en begeleiding bij verhuurbeheer. Manara Stay is geen vastgoedagentschap.",
+    "founderRole": "Oprichter"
+  }
+}
