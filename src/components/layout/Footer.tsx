@@ -94,8 +94,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10">
-        <div className="container-site space-y-3 py-6">
-          <p className="max-w-4xl text-xs leading-relaxed text-white/45">{t("legal")}</p>
+        <div className="container-site py-6">
           <p className="text-xs text-white/35">
             © {year} {t("rights")}
           </p>

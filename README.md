@@ -6,8 +6,7 @@ Vitrine de conversion pour propriétaires (Tanger) — conciergerie locative cou
 
 - Next.js 14 (App Router) + Tailwind CSS
 - next-intl : FR (défaut), ES, AR (RTL), NL
-- Supabase : `testimonials`, `leads_owners`, `contacts`
-- Netlify
+- Netlify (hébergement + Netlify Forms pour le formulaire propriétaires)
 
 ## Local
 
@@ -19,14 +18,11 @@ npm run dev
 
 Ouvrir http://localhost:3000
 
-## Supabase
+## Formulaire (Netlify Forms)
 
-1. Créer un projet.
-2. Exécuter `supabase/schema.sql` dans le SQL Editor.
-3. Renseigner `NEXT_PUBLIC_SUPABASE_URL` et `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
-4. Publier les avis réels (`published = true`) via le Table Editor — pas d'avis inventés.
+`LeadForm` envoie en POST url-encoded vers `/__forms.html`, formulaire de détection statique nommé `proprietaires` (dans `public/`). Tout champ ajouté au composant doit aussi être ajouté dans `public/__forms.html`.
 
-Sans ces variables, le site s'affiche ; le formulaire indique qu'il n'est pas encore branché.
+En local (`npm run dev`), Netlify Forms n'existe pas : l'envoi affiche le message d'erreur. Tester sur un deploy preview Netlify.
 
 ## Netlify
 

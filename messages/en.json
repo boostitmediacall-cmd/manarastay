@@ -109,10 +109,7 @@
     },
     "note": "The availability of reporting tools and the reporting terms are set out in your management contract.",
     "booked": "Booked",
-    "free": "Available",
-    "noPromiseEyebrow": "No artificial promises",
-    "noPromiseTitle": "We do not invent certainties.",
-    "noPromiseBody": "We do not guarantee a fixed income or occupancy rate. We analyse your home’s potential and present an estimate based on its characteristics and market conditions."
+    "free": "Available"
   },
   "owners": {
     "eyebrow": "For owners",
@@ -142,7 +139,7 @@
   "reviews": {
     "eyebrow": "Reviews",
     "title": "Trust is built.\nReviews tell the story.",
-    "caption": "Verified reviews from our Airbnb listings",
+    "caption": "Reviews left by our guests on Airbnb",
     "emptyTitle": "The first testimonials will be published here.",
     "emptyBody": "We share only authentic reviews from owners and guests, with their consent. No invented testimonials, no artificial ratings.",
     "source": "Verified review",
@@ -220,7 +217,6 @@
     "successTitle": "Request received",
     "success": "Thank you. We have received your request and will get back to you.",
     "error": "The request could not be sent. Please try again, or write to us on WhatsApp.",
-    "unavailable": "The form is not connected to the database yet. Please use WhatsApp or email in the meantime.",
     "whatsappAlt": "A question? Let’s talk on WhatsApp.",
     "whatsappCta": "Write on WhatsApp",
     "whatsappHint": "Tarik replies on +212 6 79 40 45 27.",
@@ -247,7 +243,6 @@
     "slogan": "Short-term rental management, done differently.",
     "location": "Tangier · Morocco",
     "tagline": "Short-term rental concierge in Tangier. A local, transparent approach to rental management.",
-    "legal": "Manara Stay is a concierge and rental-management support activity. Services, responsibilities and management terms are defined in a contract adapted to each owner. Manara Stay is not a real-estate agency.",
     "rights": "Manara Stay. All rights reserved.",
     "parent": "A Manara Keys brand",
     "languages": "Languages",
@@ -303,29 +298,25 @@
     "metaTitle": "Rental concierge in Tangier — Estimate my property | Manara Stay",
     "metaDescription": "Short-term rental management in Tangier. Estimate with no obligation, local presence and a single contact. No guaranteed-income promise.",
     "badge": "Premium rental management · Tangier",
-    "title": "Your property in Tangier, entrusted to one trusted contact",
-    "subtitle": "From guest welcome to pricing, Manara Stay handles your short-term rental in Tangier, listed on Airbnb and Booking.com: cleaning, linen, guest messages, check-in and check-out, pricing.",
-    "cta": "Estimate my property’s potential",
-    "ctaWhatsapp": "Write on WhatsApp",
+    "title": "Your property in Tangier.",
+    "tagline": "Managed locally. Tracked clearly.",
+    "subtitle": "From guest welcome to pricing, we handle everything on Airbnb & Booking.com. You stay in control.",
+    "cta": "Estimate my property",
     "imageAlt": "Lighthouse above the sea, evening light in Tangier",
     "trustTitle": "A well-managed home starts with a relationship of trust.",
     "trustSubtitle": "Your home is an investment. Its presentation, upkeep and every booking matter. At Manara Stay, we combine a local presence in Tangier, management tools and clear communication to offer management without unpleasant surprises.",
     "trust": {
       "transparency": {
-        "title": "Transparency",
-        "body": "You see bookings received on Airbnb and Booking.com, as well as income, as they come in — not only at the end of the month."
+        "title": "Full transparency",
+        "body": "You see bookings and income as they come in — not just at the end of the month."
       },
       "local": {
         "title": "Local presence",
-        "body": "Close follow-up for your property in Tangier."
-      },
-      "welcome": {
-        "title": "Welcome quality",
-        "body": "A stay prepared with care, from first contact to departure."
+        "body": "Check-in, cleaning, linen and repairs handled directly in Tangier."
       },
       "one": {
         "title": "A single contact",
-        "body": "Direct communication, without unnecessary intermediaries."
+        "body": "Direct communication with your contact person, no middlemen."
       }
     },
     "reassuranceTitle": "Transparency is not optional.",
@@ -348,8 +339,6 @@
         "body": "Clear communication with your Manara Stay contact."
       }
     },
-    "complianceTitle": "We do not invent certainties.",
-    "complianceBody": "We do not guarantee a fixed income or an occupancy rate. We analyse your property’s potential and present an estimate based on its characteristics and market conditions.",
     "faqTitle": "Frequently asked questions",
     "faq": {
       "1": {
@@ -374,8 +363,8 @@
       }
     },
     "formTitle": "A first estimate, with no obligation.",
+    "formSubmit": "Get my estimate",
     "formWhatsappAlt": "A question? Let’s talk directly on WhatsApp",
-    "legal": "Manara Stay is a concierge and rental-management support activity. Manara Stay is not a real-estate agency.",
     "founderRole": "Founder"
   }
 }

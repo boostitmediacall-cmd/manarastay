@@ -34,7 +34,7 @@ export function CalendarPreview() {
           {t("free")}
         </span>
       </div>
-      <div className="grid grid-cols-7 gap-2">
+      <div className="grid grid-cols-7 gap-2" dir="ltr">
         {DAYS.map((day) => (
           <div
             key={day.d}

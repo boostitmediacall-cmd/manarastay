@@ -2,20 +2,23 @@
 
 import { usePathname } from "@/i18n/navigation";
 import { trackWhatsAppClick } from "@/lib/analytics";
+import { cn } from "@/lib/cn";
 import { SITE } from "@/lib/site";
+import { useEffect, useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export function WhatsAppIcon({ className = "h-5 w-5" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" className={className} fill="currentColor" aria-hidden>
-      <path d="M20.5 3.5A11 11 0 0 0 2.1 17.8L1 23l5.4-1.1A11 11 0 0 0 12 23a11 11 0 0 0 8.5-19.5zM12 21a9 9 0 0 1-4.6-1.3l-.3-.2-3.2.7.7-3.1-.2-.3A9 9 0 1 1 12 21zm5-6.6c-.3-.1-1.6-.8-1.9-.9s-.4-.1-.6.1-.7.9-.8 1-.3.2-.6.1a7.4 7.4 0 0 1-2.2-1.3 8 8 0 0 1-1.5-1.9c-.2-.3 0-.4.1-.6l.3-.4.2-.3c.1-.1.1-.2 0-.4l-.9-2.1c-.2-.6-.5-.5-.6-.5h-.5c-.2 0-.4.1-.6.3s-.8.8-.8 1.9.8 2.2.9 2.3a10.6 10.6 0 0 0 4 3.5c.6.3 1 .4 1.4.3.4-.1 1.3-.5 1.5-1.1.2-.5.2-1 .1-1.1s-.2-.2-.5-.3z" />
-    </svg>
-  );
+  return <FaWhatsapp className={className} aria-hidden="true" />;
 }
 
 type WhatsAppLinkProps = {
   className?: string;
   label?: string;
   floating?: boolean;
+  /** Bouton flottant réduit à l'icône sur mobile. */
+  compact?: boolean;
+  /** Masque le bouton flottant tant que l'élément portant cet id est à l'écran. */
+  hideWhileVisibleId?: string;
   variant?: "button" | "plain";
 };
 
@@ -23,10 +26,25 @@ export function WhatsAppLink({
   className = "",
   label,
   floating = false,
+  compact = false,
+  hideWhileVisibleId,
   variant = "button",
 }: WhatsAppLinkProps) {
   const pathname = usePathname();
   const page = pathname === "/conciergerie" ? "conciergerie" : "site";
+  const [hidden, setHidden] = useState(false);
+
+  useEffect(() => {
+    setHidden(false);
+    if (!floating || !hideWhileVisibleId) return;
+    const target = document.getElementById(hideWhileVisibleId);
+    if (!target) return;
+    const observer = new IntersectionObserver(([entry]) =>
+      setHidden(entry.isIntersecting),
+    );
+    observer.observe(target);
+    return () => observer.disconnect();
+  }, [floating, hideWhileVisibleId, pathname]);
 
   function onClick() {
     trackWhatsAppClick({ page });
@@ -55,14 +73,26 @@ export function WhatsAppLink({
       target="_blank"
       rel="noopener noreferrer"
       onClick={onClick}
+      aria-hidden={hidden || undefined}
+      tabIndex={hidden ? -1 : undefined}
       className={
         floating
-          ? "fixed bottom-5 end-5 z-40 inline-flex min-h-12 items-center gap-2 rounded-full bg-[#25D366] px-4 py-3 text-sm font-semibold text-white shadow-lift transition hover:-translate-y-0.5"
+          ? cn(
+              "fixed z-40 inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] font-semibold text-white shadow-lift transition hover:-translate-y-0.5",
+              compact
+                ? "bottom-4 end-4 h-14 w-14 sm:bottom-5 sm:end-5 sm:h-auto sm:min-h-12 sm:w-auto sm:px-4 sm:py-3 sm:text-sm"
+                : "bottom-5 end-5 min-h-12 px-4 py-3 text-sm",
+              hidden && "pointer-events-none translate-y-4 opacity-0",
+            )
           : `inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:brightness-95 ${className}`
       }
     >
-      <WhatsAppIcon />
-      {label ?? "WhatsApp"}
+      <WhatsAppIcon
+        className={floating && compact ? "h-7 w-7 sm:h-5 sm:w-5" : undefined}
+      />
+      <span className={floating && compact ? "sr-only sm:not-sr-only" : undefined}>
+        {label ?? "WhatsApp"}
+      </span>
     </a>
   );
 }

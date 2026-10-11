@@ -1,9 +1,9 @@
-import { AdsCompliance } from "@/components/ads/AdsCompliance";
 import { AdsFaq } from "@/components/ads/AdsFaq";
 import { AdsHero } from "@/components/ads/AdsHero";
-import { AdsReassurance } from "@/components/ads/AdsReassurance";
 import { AdsTrust } from "@/components/ads/AdsTrust";
 import { LeadForm } from "@/components/home/LeadForm";
+import { ReviewsBlock } from "@/components/home/ReviewsBlock";
+import { Trust } from "@/components/home/Trust";
 import { SITE } from "@/lib/site";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
@@ -32,10 +32,10 @@ export default async function ConciergeriePage({ params }: Props) {
     <>
       <AdsHero />
       <AdsTrust />
-      <AdsReassurance />
-      <AdsCompliance />
-      <AdsFaq />
       <LeadForm variant="simple" heading={false} source="conciergerie" />
+      <Trust dense />
+      <AdsFaq />
+      <ReviewsBlock compact dense />
     </>
   );
 }

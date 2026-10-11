@@ -32,7 +32,7 @@ export function LandingHeader() {
           />
           <a
             href="#estimer"
-            className="btn-primary max-w-[11.5rem] !px-3 !py-2 !text-center !text-[12px] !leading-tight sm:max-w-none sm:!px-5 sm:!py-2.5 sm:!text-[13px]"
+            className="btn-primary whitespace-nowrap !px-4 !py-2 !text-[13px] sm:!px-5 sm:!py-2.5"
           >
             {ads("cta")}
           </a>

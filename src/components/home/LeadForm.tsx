@@ -1,6 +1,5 @@
 "use client";
 
-import { submitOwnerLead, type LeadError } from "@/actions/leads";
 import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { trackLeadConversion } from "@/lib/analytics";
 import { CITIES, PROPERTY_TYPES, SITE } from "@/lib/site";
@@ -25,6 +24,12 @@ const UTM_KEYS = [
   "utm_term",
   "gclid",
 ] as const;
+
+// Doit correspondre au formulaire de détection public/__forms.html.
+const NETLIFY_FORM_NAME = "proprietaires";
+const NETLIFY_FORM_ENDPOINT = "/__forms.html";
+
+type LeadError = "invalid" | "failed";
 
 function readTrackingParams() {
   const params = new URLSearchParams(window.location.search);
@@ -81,14 +86,34 @@ function LeadFormInner({
         formData.set(key, params[key] || tracking[key] || "");
       }
     }
-    const result = await submitOwnerLead(formData);
-    if (result.ok) {
-      setStatus("ok");
-      form.reset();
-      trackLeadConversion({ page: source, lead_type: "owner_estimate" });
+
+    const name = String(formData.get("name") ?? "").trim();
+    const phone = String(formData.get("phone") ?? "").trim();
+    if (name.length < 2 || phone.length < 8) {
+      setStatus("invalid");
       return;
     }
-    setStatus(result.error);
+
+    const body = new URLSearchParams();
+    formData.forEach((value, key) => {
+      if (typeof value === "string") body.append(key, value.trim());
+    });
+
+    try {
+      const response = await fetch(NETLIFY_FORM_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: body.toString(),
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    } catch {
+      setStatus("failed");
+      return;
+    }
+
+    setStatus("ok");
+    form.reset();
+    trackLeadConversion({ page: source, lead_type: "owner_estimate" });
   }
 
   const successCard = (
@@ -126,6 +151,7 @@ function LeadFormInner({
         className="hidden"
         aria-hidden="true"
       />
+      <input type="hidden" name="form-name" value={NETLIFY_FORM_NAME} />
       <input type="hidden" name="locale" value={locale} />
       <input type="hidden" name="page" value={source} />
       {UTM_KEYS.map((key) => (
@@ -198,12 +224,13 @@ function LeadFormInner({
         disabled={status === "loading"}
         className="btn-primary mt-6 w-full disabled:cursor-wait disabled:opacity-70"
       >
-        {status === "loading" ? t("sending") : t("submit")}
+        {status === "loading"
+          ? t("sending")
+          : landing
+            ? ads("formSubmit")
+            : t("submit")}
       </button>
 
-      {status === "unavailable" ? (
-        <p className="mt-4 text-sm text-navy/70">{t("unavailable")}</p>
-      ) : null}
       {status === "invalid" || status === "failed" ? (
         <p className="mt-4 text-sm text-coral-dark">{t("error")}</p>
       ) : null}
@@ -220,7 +247,7 @@ function LeadFormInner({
 
   if (landing) {
     return (
-      <section id="estimer" className="scroll-mt-28 bg-sandfade py-20 sm:py-24">
+      <section id="estimer" className="scroll-mt-24 bg-white py-14 sm:py-20">
         <div className="container-site">
           <div className="mx-auto max-w-2xl">
             {status === "ok" ? successCard : formCard}

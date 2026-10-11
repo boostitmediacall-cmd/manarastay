@@ -7,7 +7,7 @@ export async function AdsFaq() {
   const t = await getTranslations("ads");
 
   return (
-    <section className="py-16 sm:py-20">
+    <section className="py-14 sm:py-20">
       <div className="container-site">
         <div className="mx-auto max-w-3xl">
           <Reveal>

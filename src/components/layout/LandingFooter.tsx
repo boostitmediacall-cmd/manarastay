@@ -6,7 +6,6 @@ import { SITE } from "@/lib/site";
 import { useTranslations } from "next-intl";
 
 export function LandingFooter() {
-  const t = useTranslations("ads");
   const nav = useTranslations("nav");
   const year = new Date().getFullYear();
   const phoneHref = `tel:+${SITE.whatsapp.replace(/\D/g, "")}`;
@@ -37,9 +36,6 @@ export function LandingFooter() {
           >
             {nav("home")}
           </Link>
-        </p>
-        <p className="mt-6 max-w-2xl text-sm leading-relaxed text-white/55">
-          {t("legal")}
         </p>
       </div>
       <div className="border-t border-white/10">

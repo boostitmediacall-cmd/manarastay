@@ -2,6 +2,7 @@ import { CalendarDays, MessagesSquare, Receipt, Shield } from "lucide-react";
 import { CalendarPreview } from "@/components/home/CalendarPreview";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { cn } from "@/lib/cn";
 import { getTranslations } from "next-intl/server";
 
 const POINTS = [
@@ -11,11 +12,14 @@ const POINTS = [
   { key: "exchange" as const, icon: MessagesSquare },
 ];
 
-export async function Trust() {
+export async function Trust({ dense = false }: { dense?: boolean }) {
   const t = await getTranslations("trust");
 
   return (
-    <section id="transparence" className="scroll-mt-24 py-20 sm:py-24">
+    <section
+      id="transparence"
+      className={cn("scroll-mt-24", dense ? "py-14 sm:py-20" : "py-20 sm:py-24")}
+    >
       <div className="container-site">
         <Reveal>
           <SectionHeading

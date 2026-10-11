@@ -3,7 +3,6 @@ import { Founder } from "@/components/home/Founder";
 import { Hero } from "@/components/home/Hero";
 import { HowItWorks } from "@/components/home/HowItWorks";
 import { LeadForm } from "@/components/home/LeadForm";
-import { NoPromise } from "@/components/home/NoPromise";
 import { Owners } from "@/components/home/Owners";
 import { ReviewsBlock } from "@/components/home/ReviewsBlock";
 import { Services } from "@/components/home/Services";
@@ -23,7 +22,6 @@ export default async function HomePage({ params }: Props) {
       <WhyUs />
       <Services />
       <Trust />
-      <NoPromise />
       <Story />
       <HowItWorks />
       <Owners />

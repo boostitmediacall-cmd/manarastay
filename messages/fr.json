@@ -109,10 +109,7 @@
     },
     "note": "La disponibilité des outils de suivi et les modalités de reporting sont précisées dans votre contrat de gestion.",
     "booked": "Loué",
-    "free": "Libre",
-    "noPromiseEyebrow": "Pas de promesses artificielles",
-    "noPromiseTitle": "Nous n'inventons pas de certitudes.",
-    "noPromiseBody": "Nous ne garantissons pas un revenu fixe ni un taux d'occupation. Nous analysons le potentiel de votre logement et vous présentons une estimation basée sur ses caractéristiques et les conditions du marché."
+    "free": "Libre"
   },
   "owners": {
     "eyebrow": "Pour les propriétaires",
@@ -142,7 +139,7 @@
   "reviews": {
     "eyebrow": "Avis",
     "title": "La confiance se construit.\nLes avis la racontent.",
-    "caption": "Avis vérifiés, issus de nos annonces Airbnb",
+    "caption": "Avis laissés par nos voyageurs sur Airbnb",
     "emptyTitle": "Les premiers témoignages seront publiés ici.",
     "emptyBody": "Nous partageons uniquement des avis authentiques de propriétaires et de voyageurs, avec leur accord. Aucun témoignage inventé, aucune note artificielle.",
     "source": "Avis vérifié",
@@ -220,7 +217,6 @@
     "successTitle": "Demande bien reçue",
     "success": "Merci. Nous avons bien reçu votre demande et nous vous recontactons.",
     "error": "L'envoi n'a pas abouti. Réessayez, ou écrivez-nous directement sur WhatsApp.",
-    "unavailable": "Le formulaire n'est pas encore branché à la base. Utilisez WhatsApp ou l'e-mail en attendant.",
     "whatsappAlt": "Une question ? Échangeons sur WhatsApp.",
     "whatsappCta": "Écrire sur WhatsApp",
     "whatsappHint": "Tarik vous répond au +212 6 79 40 45 27.",
@@ -247,7 +243,6 @@
     "slogan": "La gestion locative courte durée, autrement.",
     "location": "Tanger · Maroc",
     "tagline": "Conciergerie locative courte durée à Tanger. Une approche locale et transparente de la gestion locative.",
-    "legal": "Manara Stay est une activité de conciergerie et d'accompagnement à la gestion locative. Les prestations proposées, les responsabilités et les conditions de gestion sont définies dans un contrat adapté à chaque propriétaire. Manara Stay n'est pas une agence immobilière.",
     "rights": "Manara Stay. Tous droits réservés.",
     "parent": "Une marque Manara Keys",
     "languages": "Langues",
@@ -303,29 +298,25 @@
     "metaTitle": "Conciergerie locative à Tanger — Estimer mon bien | Manara Stay",
     "metaDescription": "Gestion locative courte durée à Tanger. Estimation sans engagement, présence locale et interlocuteur unique. Sans promesse de revenus garantis.",
     "badge": "Gestion locative premium · Tanger",
-    "title": "Votre bien à Tanger, confié à un seul interlocuteur de confiance",
-    "subtitle": "De l'accueil des voyageurs à la fixation des prix, Manara Stay s'occupe de votre location courte durée à Tanger, diffusée sur Airbnb et Booking.com : ménage, linge, messages avec les voyageurs, entrée et sortie, tarification.",
-    "cta": "Estimer le potentiel de mon bien",
-    "ctaWhatsapp": "Écrire sur WhatsApp",
+    "title": "Votre bien à Tanger.",
+    "tagline": "Géré localement. Suivi clairement.",
+    "subtitle": "De l'accueil à la tarification, on s'occupe de tout sur Airbnb & Booking.com. Vous gardez le contrôle.",
+    "cta": "Estimer mon bien",
     "imageAlt": "Phare au-dessus de la mer, lumière du soir à Tanger",
     "trustTitle": "Un logement bien géré commence par une relation de confiance.",
     "trustSubtitle": "Votre logement est un investissement. Sa présentation, son entretien et chaque réservation comptent. Chez Manara Stay, nous combinons une présence locale à Tanger, des outils de gestion et une communication claire pour vous offrir une gestion sans mauvaises surprises.",
     "trust": {
       "transparency": {
-        "title": "Transparence",
-        "body": "Vous voyez les réservations reçues sur Airbnb et Booking.com, ainsi que les revenus, au fur et à mesure — pas seulement en fin de mois."
+        "title": "Transparence totale",
+        "body": "Vous voyez les réservations et les revenus au fur et à mesure — pas seulement en fin de mois."
       },
       "local": {
         "title": "Présence locale",
-        "body": "Un suivi de proximité pour votre bien à Tanger."
-      },
-      "welcome": {
-        "title": "Qualité d'accueil",
-        "body": "Un séjour préparé avec soin, du premier contact au départ."
+        "body": "Check-in, ménage, linge et interventions gérés directement à Tanger."
       },
       "one": {
         "title": "Un seul contact",
-        "body": "Une communication directe, sans intermédiaires inutiles."
+        "body": "Communication directe avec votre interlocuteur, sans intermédiaire."
       }
     },
     "reassuranceTitle": "La transparence n'est pas une option.",
@@ -348,8 +339,6 @@
         "body": "Une communication claire avec votre interlocuteur Manara Stay."
       }
     },
-    "complianceTitle": "Nous n'inventons pas de certitudes.",
-    "complianceBody": "Nous ne garantissons pas un revenu fixe ni un taux d'occupation. Nous analysons le potentiel de votre logement et vous présentons une estimation basée sur ses caractéristiques et les conditions du marché.",
     "faqTitle": "Questions fréquentes",
     "faq": {
       "1": {
@@ -374,8 +363,8 @@
       }
     },
     "formTitle": "Une première estimation, sans engagement.",
+    "formSubmit": "Recevoir mon estimation",
     "formWhatsappAlt": "Une question ? Échangeons directement sur WhatsApp",
-    "legal": "Manara Stay est une activité de conciergerie et d'accompagnement à la gestion locative. Manara Stay n'est pas une agence immobilière.",
     "founderRole": "Fondateur"
   }
 }

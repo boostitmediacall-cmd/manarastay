@@ -4,7 +4,7 @@ export const SITE = {
   name: "Manara Stay",
   parent: "Manara Keys",
   domain: "manarastay.com",
-  email: process.env.NEXT_PUBLIC_EMAIL ?? "contact@manarastay.com",
+  email: process.env.NEXT_PUBLIC_EMAIL ?? "manarastay@gmail.com",
   phoneDisplay: "+212 6 79 40 45 27",
   whatsapp: WHATSAPP,
   whatsappUrl: `https://wa.me/${WHATSAPP.replace(/\D/g, "")}`,

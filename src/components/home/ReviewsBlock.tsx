@@ -68,7 +68,13 @@ function quotedText(review: GuestReview) {
   return `\u201C${review.quote}\u201D`;
 }
 
-export async function ReviewsBlock({ compact = false }: { compact?: boolean }) {
+export async function ReviewsBlock({
+  compact = false,
+  dense = false,
+}: {
+  compact?: boolean;
+  dense?: boolean;
+}) {
   const t = await getTranslations("reviews");
   const published = GUEST_REVIEWS.filter((item) => item.quote);
   const visible = compact
@@ -81,7 +87,10 @@ export async function ReviewsBlock({ compact = false }: { compact?: boolean }) {
       id="avis"
       className={
         compact
-          ? "scroll-mt-24 bg-sandfade py-20 sm:py-24"
+          ? cn(
+              "scroll-mt-24 bg-sandfade",
+              dense ? "py-14 sm:py-20" : "py-20 sm:py-24",
+            )
           : "scroll-mt-24 pb-16 pt-4 sm:pb-20"
       }
     >
